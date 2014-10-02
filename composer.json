@@ -1,0 +1,19 @@
+{
+    "name": "mga/EventHandler",
+    "description": "Administrador de eventos",
+    "keywords": ["events"],
+    "homepage": "https://github.com/marcelogaguero/EventHandler",
+    "type": "library",
+    "license": "MIT",
+    "authors": [{
+        "name": "Marcelo Aguero",
+        "email": "marcelogaguero@hotmail.com",
+        "homepage": "https://twitter.com/marcelogaguero"
+    }],
+    "require": {
+        "php": ">=5.3.0"
+    },
+    "autoload": {
+        "classmap": ["src/autoload.php"]
+    }
+}
