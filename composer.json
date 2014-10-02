@@ -1,4 +1,12 @@
 {
+    "name": "mga/Events",
+    "homepage": "https://github.com/marcelogaguero/EventHandler",
+    "license": "MIT",
+    "authors": [{
+        "name": "Marcelo Aguero",
+        "email": "marcelogaguero@hotmail.com",
+        "homepage": "https://twitter.com/marcelogaguero"
+    }],
     "repositories": [{
         "type": "package",
         "package": {
