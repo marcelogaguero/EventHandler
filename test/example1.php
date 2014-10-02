@@ -1,6 +1,6 @@
 <?php
 namespace event {
-    use src\core\EventHadler;
+    use src\core\EventHandler;
 
     require_once (__DIR__."/../src/autoload.php");
     require_once("EventImpl.php");
@@ -18,12 +18,14 @@ namespace event {
         $event->addListener($listener2);
 
         /**
-         * @var EventHadler $handle;
+         * @var EventHandler $handle;
          */
-        $handle = EventHadler::getInstance();
+        $handle = EventHandler::getInstance();
         $handle->addEvent($event);
 
         $handle->trigger("click");
+
+        echo trim(implode("<br/>", $_SESSION['notify']));
 
     } catch(\Exception $e){
         echo $e->getMessage();

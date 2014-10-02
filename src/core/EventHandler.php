@@ -11,7 +11,7 @@ namespace src\core;
 
 use src\core\EventList;
 
-class EventHadler {
+class EventHandler {
 
     private static $instance;
     /**
