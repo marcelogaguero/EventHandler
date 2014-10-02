@@ -18,7 +18,7 @@
                 "reference": "master"
             },
             "autoload": {
-                "classmap" : ["src/"]
+                "classmap" : ["src/core"]
             }
         }
     }],
