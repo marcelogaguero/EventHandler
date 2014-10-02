@@ -18,7 +18,7 @@
                 "reference": "master"
             },
             "autoload": {
-                "psr-0" : { "EventHandler" : "src/core" }
+                "psr-0" : { "src/core" : "*" }
             }
         }
     }],
