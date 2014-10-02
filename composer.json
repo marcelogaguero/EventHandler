@@ -1,20 +1,22 @@
 {
     "homepage": "https://github.com/marcelogaguero/EventHandler",
-    "type": "package",
-    "package": {
-        "name": "mga/EventHandler",
-        "version": "dev-master",
-        "source": {
-            "url": "https://github.com/marcelogaguero/EventHandler.git",
-            "type": "git",
-            "reference": "master"
-        },
-        "autoload": {
-            "psr-0" : {
-                "mga\\EventHandler" : "src"
+    "repositories": [{
+        "type": "package",
+        "package": {
+            "name": "mga/EventHandler",
+            "version": "dev-master",
+            "source": {
+                "url": "https://github.com/marcelogaguero/EventHandler.git",
+                "type": "git",
+                "reference": "master"
+            },
+            "autoload": {
+                "psr-0" : {
+                    "mga\\EventHandler" : "src"
+                }
             }
         }
-    },
+    }],
     "license": "MIT",
     "authors": [{
         "name": "Marcelo Aguero",
