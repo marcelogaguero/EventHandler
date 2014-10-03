@@ -1,6 +1,7 @@
 {
     "name": "mga/Events",
     "homepage": "https://github.com/marcelogaguero/EventHandler",
+    "version": "1.0.0-dev",
     "license": "MIT",
     "authors": [{
         "name": "Marcelo Aguero",
@@ -18,8 +19,7 @@
                 "reference": "master"
             },
             "autoload": {
-                "classmap": ["src/core"],
-                "files": ["src/autoload.php"]
+                "psr-0": { "src\\core\\" : ["src/core/"] }
             }
         }
     }],
