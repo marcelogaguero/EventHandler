@@ -9,7 +9,7 @@
         "homepage": "https://twitter.com/marcelogaguero"
     }],
     "autoload": {
-        "classmap": ["src/core"]
+        "psr-0": { "src\\core\\": ["src/core/"] }
     },
     "require": {
         "php": ">=5.3.0"
