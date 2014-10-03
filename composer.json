@@ -18,9 +18,7 @@
                 "reference": "master"
             },
             "autoload": {
-                "psr-4" : {
-                    "src\\core" : "src"
-                }
+                "classmap": ["src/core/", "src/autoload.php"]
             }
         }
     }],
