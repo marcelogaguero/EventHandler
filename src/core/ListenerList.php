@@ -1,11 +1,10 @@
 <?php
 /**
- * Created by Marcelo Agüero.
+ * Created by Nemogroup.
  *
+ * User: marcelo
  * Date: 01/10/14
  * Time: 07:55
- *
- * @package EventHandler
  */
 namespace src\core;
 
