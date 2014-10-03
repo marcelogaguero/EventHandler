@@ -24,11 +24,16 @@ Para instalarlo con composer
 
 ***USO***
 
-// Creamos el evento
+// Instanciamos un evento
 
         $event = new EventImpl("click");
 
-// Creamos los oyentes
+// Creamos un oyente
+
+        Para esto debemos crear una clase que implemente la interfaz ListenerInterface
+        > class ListenerImpl implements ListenerInterface { }
+
+// Instanciamos el oyentes
 
         $listener = New ListenerImpl(1);
         $event->addListener($listener);
