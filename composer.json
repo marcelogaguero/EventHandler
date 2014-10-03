@@ -19,7 +19,7 @@
             },
             "autoload": {
                 "psr-0" : {
-                    "mga\\Events" : "src/core"
+                    "mga\\Events" : "src/autoload.php"
                 }
             }
         }
