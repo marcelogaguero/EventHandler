@@ -18,7 +18,8 @@
                 "reference": "master"
             },
             "autoload": {
-                "classmap": ["src/core"]
+                "classmap": ["src/core"],
+                "files": ["src/autoload.php"]
             }
         }
     }],
