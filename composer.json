@@ -16,6 +16,11 @@
                 "url": "https://github.com/marcelogaguero/EventHandler.git",
                 "type": "git",
                 "reference": "master"
+            },
+            "autoload": {
+                "psr-0" : {
+                    "src\core" : "src"
+                }
             }
         }
     }],
