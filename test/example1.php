@@ -1,6 +1,6 @@
 <?php
 namespace event {
-    use src\core\EventHandler;
+    use mga\event\EventHandler;
 
     require_once (__DIR__."/../src/autoload.php");
     require_once("EventImpl.php");

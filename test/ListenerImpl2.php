@@ -9,7 +9,7 @@
 
 namespace event;
 
-use src\core\ListenerInterface;
+use mga\event\ListenerInterface;
 
 class ListenerImpl2 implements ListenerInterface {
 

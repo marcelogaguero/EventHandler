@@ -10,8 +10,8 @@
 namespace event;
 
 
-use src\core\EventInterface;
-use src\core\EventsAbstract;
+use mga\event\EventInterface;
+use mga\event\EventsAbstract;
 
 class EventImpl extends EventsAbstract implements EventInterface {
 
