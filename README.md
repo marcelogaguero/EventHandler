@@ -3,6 +3,25 @@ EventHandler
 ============
 Administrador de eventos
 
+***INSTALACIÓN***
+Para instalarlo con composer
+
+        {
+            "repositories": [
+                {
+                    "type": "git",
+                    "url": "https://github.com/marcelogaguero/EventHandler.git"
+                }
+            ],
+
+            "require": {
+                "mga/Events": "master"
+            },
+
+            "minimum-stability": "dev"
+
+        }
+
 ***USO***
 
 // Creamos el evento
